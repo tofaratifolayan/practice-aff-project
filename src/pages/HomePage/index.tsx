@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from "react-redux"
-import { AppDispatch, RootState } from "../lib/redux_store/store"
-import { toggleSideBar } from "../lib/redux_states/sidebar-slice/sidebarSlice"
+import { AppDispatch, RootState } from "@/lib/redux_store/store"
+import { toggleSideBar } from "@/lib/redux_states/sidebar-slice/sidebarSlice"
 
 const HomePage = () => {
     const dispatch = useDispatch<AppDispatch>()
